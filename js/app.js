@@ -142,7 +142,7 @@ const scoreText = document.getElementById("score");
 
 let score = 0;
 
-const buenos = ["💕", "💌", "👩🏼‍❤️‍💋‍👨🏻", "🥰", "✨"];
+const buenos = ["💕", "💌", "👩🏼‍❤️‍💋‍👨🏻", "🥰"];
 const malos = ["😡", "💥", "😭", "👊🏼","💔"];
 
 function crearEmoji() {
