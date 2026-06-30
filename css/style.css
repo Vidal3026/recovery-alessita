@@ -6,21 +6,14 @@
 }
 
 body{
-
     background:#0f172a;
-
-    overflow:hidden;
-
+    overflow-y:auto;
+    overflow-x:hidden;
     display:flex;
-
     justify-content:center;
-
-    align-items:center;
-
+    align-items:flex-start;
     min-height:100vh;
-
     padding:15px;
-
     color:white;
 }
 
@@ -37,6 +30,15 @@ body{
 }
 
 .terminal{
+    width:min(92vw,420px);
+
+    min-height:650px;
+
+    max-height:95vh;
+
+    overflow-y:auto;
+
+    padding:25px;
 
     width:min(92vw, 420px);
 
