@@ -110,7 +110,7 @@ function mostrarError() {
 
     setTimeout(() => {
 
-        result.innerHTML += "😅 Resultado:<br><br>";
+        result.innerHTML += "Resultado:<br><br>";
 
     }, 5200);
 
